@@ -47,7 +47,7 @@
   .landing .landing-image {
     flex: 1;
     order: 2;
-    background: url(/images/bg-intro-desktop.svg) no-repeat;
+    background: url("https://monaelshikh.github.io/easybank-landing-page/images/bg-intro-desktop.svg") no-repeat;
     background-position: -50px -229px;
     background-size: 1191px;
     position: relative;
