@@ -37,6 +37,9 @@ p {
   line-height: 1.5;
   margin-bottom: 30px;
 }
+a {
+  text-decoration: none;
+}
 h1,
 h2,
 h3 {
@@ -249,6 +252,9 @@ footer .container {
 .list > ul > li {
   margin-bottom: 15px;
   font-size: 15px;
+}
+.list > ul > li a {
+  color: var(--light-grayish-blue);
 }
 .list > ul > li a:hover {
   color: var(--Lime-green);
