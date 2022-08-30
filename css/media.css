@@ -1,0 +1,125 @@
+@media (min-width: 1440px) {
+  /******************** Start Header ********************/
+  .toggle {
+    display: none;
+  }
+  header .container {
+    padding-inline: 150px;
+  }
+  .drop-down {
+    display: inline-block !important;
+    top: 0px !important;
+    width: fit-content !important;
+    height: 100% !important;
+    padding: 0 !important;
+    padding-top: 20px !important;
+    align-self: stretch !important;
+  }
+  .menu .drop-down li {
+    display: inline-block;
+    padding: 0 10px;
+    height: 100%;
+  }
+  .menu .drop-down li:hover {
+    border-bottom: 5px solid var(--Lime-green);
+  }
+  .menu .drop-down li > a {
+    color: var(--grayish-blue);
+  }
+  .menu .drop-down li > a:hover {
+    color: var(--dark-blue);
+  }
+  header .container > button {
+    display: block !important;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+  }
+  /******************** End Header ********************/
+  /******************** Start Landing *****************/
+  .landing {
+    position: relative;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing .landing-image {
+    flex: 1;
+    order: 2;
+    background: url(/images/bg-intro-desktop.svg) no-repeat;
+    background-position: -50px -229px;
+    background-size: 1191px;
+    position: relative;
+    height: 675px;
+    overflow: visible;
+  }
+  .landing .landing-image > img {
+    top: -139px;
+    position: absolute;
+    left: 67%;
+  }
+  .landing-info {
+    width: 600px;
+    padding-left: 140px;
+  }
+  .landing-info .container {
+    text-align: left !important;
+  }
+  /******************** End Landing *****************/
+  /******************** Start Features **************/
+  .features {
+    text-align: left;
+    padding-top: 100px;
+  }
+  .features .container {
+    padding-inline: 150px;
+  }
+  .feat-info > h2 {
+    font-size: 38px;
+  }
+  .feat-info {
+    margin-bottom: 50px;
+    width: 500px;
+  }
+  .feat-boxes {
+    gap: 30px;
+  }
+  .feat-boxes .feat-box > p {
+    text-align: left;
+  }
+  /******************** End Features **********************/
+  /******************** Start Articles ********************/
+  .articles .container {
+    padding-inline: 150px;
+  }
+  .articles .container > h2 {
+    text-align: left;
+  }
+  /******************** End Articles ********************/
+  /******************** Start Footer ********************/
+  footer .container {
+    display: flex;
+    padding-inline: 150px;
+  }
+  footer .container .images {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  footer .container .list {
+    flex: 1;
+    margin-bottom: 0;
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+    width: 300px;
+    text-align: left;
+  }
+  footer .container .list > ul:first-child {
+    padding-right: 100px;
+  }
+  footer .container .contact {
+    text-align: right;
+  }
+  /******************** End Footer ********************/
+}
